@@ -7,7 +7,7 @@ import ChatHistory from "./components/ChatHistory";
 import ChatUI from "./components/ChatUI";
 
 const baseURL =
-  process.env.REACT_APP_BACKEND_URL || "http://localhost:8090/api";
+  process.env.REACT_APP_BACKEND_URL || "https://dev.withgpt.com/api/";
 
 function App() {
   const [chats, setChats] = useState([]);
